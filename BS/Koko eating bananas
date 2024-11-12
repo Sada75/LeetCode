@@ -27,7 +27,8 @@ public:
             if(time > h){
                 left = mid + 1;
             }else{
-                ans = std::min(ans,mid);
+                // ans = std::min(ans,mid);
+                ans = mid;
                 right = mid - 1;
             }
         }
